@@ -19,3 +19,35 @@ nav li {
     border: 1px solid white;
 }
 
+#section-grid {
+  padding-top: 3%;
+  display: grid;
+  grid-template-areas:
+    'line1 line1'
+    'line2 line2';
+  grid-template-columns: 3fr 3fr;
+  justify-content: center;
+  text-align: center;
+  background-color: gray;
+  width: 100%;
+  font-family: serif;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid white;
+}
+
+#article-1-left {
+    grid-area: line1;
+}
+
+#article-1-right {
+    grid-area: line1;
+}
+
+#article-2-left {
+    grid-area: line2;
+}
+
+#article-2-right {
+    grid-area: line2;
+}
