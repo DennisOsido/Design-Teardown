@@ -1,7 +1,10 @@
+body {
+    font-family: 'Spinnaker', sans-serif;
+}
+
 
 header {
-    background-color: gray;
-    font-family: serif;
+    background-color: rgb(100, 100, 100);
     font-size: 20px;
     font-weight: 500;
 }
@@ -32,8 +35,7 @@ nav li {
   grid-auto-rows: minmax(100px, auto);
   justify-content: center;
   text-align: center;
-  background-color: gray;
-  font-family: serif;
+  background-color: rgb(70, 70, 70);
   font-size: 20px;
   font-weight: 500;
   border: 1px solid white;
@@ -109,11 +111,14 @@ article p{
   grid-auto-rows: minmax(100px, auto);
   justify-content: center;
   text-align: left;
-  background-color: gray;
-  font-family: serif;
+  background-color: rgb(100, 100, 100);
   font-size: 20px;
   font-weight: 500;
   border: 1px solid white;
+}
+
+#section-grid-2 h2,h3 {
+    padding-left: 30px;
 }
 
 #article-3-left {
@@ -171,13 +176,11 @@ article p{
 }
 
 section h2{
-    padding-left: 30px;
     font-size: 30px;
     font-weight: 600;
 }
 
 section h3{
-    padding-left: 30px;
     font-size: 22px;
 }
 
@@ -185,11 +188,10 @@ section h3{
     text-align: center;
     background-color: gray;
     height: 500px;
-    font-family: serif;
     font-size: 20px;
     font-weight: 500;
     border: 1px solid white;
-    padding: 40px;
+    padding: 80px;
 }
 
 #section-3-paragraph {
@@ -209,14 +211,14 @@ section h3{
 }
 
 #section-3-image {
+    padding-top: 20px;
     width: 100%;
 }
 
 #section-4 {
     text-align: center;
-    background-color: gray;
+    background-color: rgb(100, 100, 100);
     height: 500px;
-    font-family: serif;
     font-size: 20px;
     font-weight: 500;
     border: 1px solid white;
@@ -270,8 +272,7 @@ section h3{
     grid-auto-rows: minmax(100px, auto);
     justify-content: center;
     text-align: left;
-    background-color: gray;
-    font-family: serif;
+    background-color: rgb(70, 70, 70);
     font-size: 20px;
     font-weight: 500;
     border: 1px solid white;
@@ -291,29 +292,57 @@ section h3{
 #section-5-article-1-left {
     grid-area: box-2;
     border: 1px solid white;
+    display: flex;
 }
 
 #section-5-article-1-right {
     grid-area: box-3;
     border: 1px solid white;
+    display: flex;
 }
 
 #section-5-article-2-left {
     grid-area: box-4;
     border: 1px solid white;
+    display: flex;
 }
 
 #section-5-article-2-right {
     grid-area: box-5;
     border: 1px solid white;
+    display: flex;
 }
 
 #section-5-article-3-left {
     grid-area: box-6;
     border: 1px solid white;
+    display: flex;
 }
 
 #section-5-article-3-right {
     grid-area: box-7;
     border: 1px solid white;
+    display: flex;
+}
+
+#section-5-paragraph-1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 3em;
+}
+
+#section-5-paragraph-2 {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.section-5-img {
+    width: 80px;
+    height: 80px;
+    padding: 30px;
+}
+
+.section-5-padding {
+    padding: 40px;
+    line-height: 1.5em;
 }
