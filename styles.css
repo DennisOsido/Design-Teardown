@@ -1,32 +1,33 @@
 body {
-    font-family: 'Spinnaker', sans-serif;
+  font-family: "Spinnaker", sans-serif;
 }
-
 
 header {
-    background-color: rgb(100, 100, 100);
-    font-size: 20px;
-    font-weight: 500;
+  background-color: rgb(100, 100, 100);
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid white;
 }
 
-a { 
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
-nav ul{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding: 20px;
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
 }
 
 nav li {
-    padding: 10px;
-    border: 1px solid white;
+  padding: 10px;
+  border: 1px solid white;
 }
 
 #section-grid {
-    position: relative;
+  position: relative;
   display: grid;
   grid-template-areas:
     "line-a line-b"
@@ -41,67 +42,72 @@ nav li {
   border: 1px solid white;
 }
 
-article p{
-    margin: 30px;
+article p {
+  margin: 30px;
 }
 
 #article-1-left {
-    grid-area: line-a;
-    padding: 30px;
-    border: 1px solid white;
+  grid-area: line-a;
+  padding: 30px;
+  border: 1px solid white;
 }
 
 #article-1-right {
-    grid-area: line-b;
-    padding: 30px;
-    border: 1px solid white;
+  grid-area: line-b;
+  padding: 30px;
+  border: 1px solid white;
 }
 
 #article-2-left {
-    grid-area: line-c;
-    padding: 30px;
-    border: 1px solid white;
+  grid-area: line-c;
+  padding: 30px;
+  border: 1px solid white;
 }
 
 #article-2-right {
-    grid-area: line-d;
-    padding: 30px;
-    border: 1px solid white;
+  grid-area: line-d;
+  padding: 30px;
+  border: 1px solid white;
 }
 
-#section-title{
-    position: absolute;
-    top: 4%;
-    left: 40%;
-    background-color: white;
-    padding: 10px;
-    font-size: 25px;
-    font-weight: 600;
-    z-index: 1;
+#section-title {
+  position: absolute;
+  top: 4%;
+  left: 40%;
+  background-color: white;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  z-index: 1;
 }
 
 #section-icons {
-    position: absolute;
-    top: 20px;
-    right: 5%;
-    padding: 10px;
-    font-size: 20px;
-    display: flex;
+  position: absolute;
+  top: 20px;
+  right: 5%;
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
 }
 
 #section-icons span {
-    border: 1px solid white;
-    padding: 5px;
+  border: 1px solid white;
+  padding: 5px;
 }
 
 #section-icons p {
-    border: 1px solid white;
-    margin-left: 10px;
-    padding: 5px;
+  border: 1px solid white;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+section h2 {
+  font-size: 30px;
+  font-weight: 600;
 }
 
 #section-grid-2 {
-    position: relative;
+  position: relative;
   display: grid;
   grid-template-areas:
     "line-e line-f line-g"
@@ -117,309 +123,389 @@ article p{
   border: 1px solid white;
 }
 
-#section-grid-2 h2,h3 {
-    padding-left: 30px;
+#section-grid-2 h2,
+h3 {
+  padding-left: 30px;
 }
 
 #article-3-left {
-    grid-area: line-e;
-    padding: 30px;
-    border: 1px solid white;
+  grid-area: line-e;
+  padding: 30px;
+  border: 1px solid white;
 }
 
 #article-3-middle {
-    grid-area: line-f;
-    padding: 30px;
-    border: 1px solid white;
+  grid-area: line-f;
+  padding: 30px;
+  border: 1px solid white;
 }
 
 #article-3-right {
-    grid-area: line-g;
-    padding: 30px;
-    border: 1px solid white;
+  grid-area: line-g;
+  padding: 30px;
+  border: 1px solid white;
 }
 
 #article-4-left {
-    grid-area: line-h;
-    padding: 30px;
-    border: 1px solid white;
+  grid-area: line-h;
+  padding: 30px;
+  border: 1px solid white;
 }
 
 #article-4-middle {
-    grid-area: line-i;
-    padding: 30px;
-    border: 1px solid white;
+  grid-area: line-i;
+  padding: 30px;
+  border: 1px solid white;
 }
 
 #article-4-right {
-    grid-area: line-j;
-    padding: 30px;
-    border: 1px solid white;
+  grid-area: line-j;
+  padding: 30px;
+  border: 1px solid white;
 }
 
 #article-5-left {
-    grid-area: line-k;
-    padding: 30px;
-    border: 1px solid white;
+  grid-area: line-k;
+  padding: 30px;
+  border: 1px solid white;
 }
 
 #article-5-middle {
-    grid-area: line-l;
-    padding: 30px;
-    border: 1px solid white;
+  grid-area: line-l;
+  padding: 30px;
+  border: 1px solid white;
 }
 
 #article-5-right {
-    grid-area: line-m;
-    padding: 30px;
-    border: 1px solid white;
+  grid-area: line-m;
+  padding: 30px;
+  border: 1px solid white;
 }
 
-section h2{
-    font-size: 30px;
-    font-weight: 600;
-}
-
-section h3{
-    font-size: 22px;
+section h3 {
+  font-size: 22px;
 }
 
 #section-3 {
-    text-align: center;
-    background-color: gray;
-    height: 500px;
-    font-size: 20px;
-    font-weight: 500;
-    border: 1px solid white;
-    padding: 80px;
+  text-align: center;
+  background-color: gray;
+  height: 500px;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid white;
+  padding: 80px;
 }
 
 #section-3-paragraph {
-    padding: 40px;
+  padding: 40px;
 }
 
 .section-3-heading {
-    font-size: 30px;
-    margin: 10px;
+  font-size: 30px;
+  margin: 10px;
 }
 
 #section-3-button {
-    padding: 10px;
-    width: 300px;
-    font-size: 22px;
-    border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  font-size: 22px;
+  border-radius: 10px;
 }
 
 #section-3-image {
-    padding-top: 20px;
-    width: 100%;
+  padding-top: 20px;
+  width: 100%;
 }
 
 #section-4 {
-    text-align: center;
-    background-color: rgb(100, 100, 100);
-    height: 500px;
-    font-size: 20px;
-    font-weight: 500;
-    border: 1px solid white;
-    padding: 50px 0;
+  text-align: center;
+  background-color: rgb(100, 100, 100);
+  height: 500px;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid white;
+  padding: 50px 0;
 }
 
 #section-4-button {
-    padding: 10px;
-    width: 400px;
-    font-size: 22px;
-    border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+  font-size: 22px;
+  border-radius: 10px;
 }
 
 #section-4-heading {
-    font-size: 30px;
-    margin: 10px;
+  font-size: 30px;
+  margin: 10px;
 }
 
 .section-4-paragraph {
-    padding: 40px;
+  padding: 40px;
 }
 
 #section-4-link {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 #smashing-tv {
-    width: 95%;
-    margin: auto;
-    border: 1px solid white;
-    border-radius: 10px;
-    height: 400px;
-    padding: 20px;
+  width: 95%;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 400px;
+  padding: 20px;
 }
 
 #section-4 img {
-    border: 1px solid #000;
-    width: 100px;
-    height: 100px;
-    background-color: #000;
+  border: 1px solid #000;
+  width: 100px;
+  height: 100px;
+  background-color: #000;
 }
 
 #section-5-grid {
-    display: grid;
-    grid-template-areas:
-      "box-1 box-1"
-      "box-2 box-3"
-      "box-4 box-5"
-      "box-6 box-7";
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
-    justify-content: center;
-    text-align: left;
-    background-color: rgb(70, 70, 70);
-    font-size: 20px;
-    font-weight: 500;
-    border: 1px solid white;
+  display: grid;
+  grid-template-areas:
+    "box-1 box-1"
+    "box-2 box-3"
+    "box-4 box-5"
+    "box-6 box-7";
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  justify-content: center;
+  text-align: left;
+  background-color: rgb(70, 70, 70);
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid white;
 }
 
 #section-5-main {
-    grid-area: box-1;
-    border: 1px solid white;
-    display: flex;
-    padding: 20px;
+  grid-area: box-1;
+  border: 1px solid white;
+  display: flex;
+  padding: 20px;
 }
 
 #section-5-description {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 #section-5-article-1-left {
-    grid-area: box-2;
-    border: 1px solid white;
-    display: flex;
+  grid-area: box-2;
+  border: 1px solid white;
+  display: flex;
 }
 
 #section-5-article-1-right {
-    grid-area: box-3;
-    border: 1px solid white;
-    display: flex;
+  grid-area: box-3;
+  border: 1px solid white;
+  display: flex;
 }
 
 #section-5-article-2-left {
-    grid-area: box-4;
-    border: 1px solid white;
-    display: flex;
+  grid-area: box-4;
+  border: 1px solid white;
+  display: flex;
 }
 
 #section-5-article-2-right {
-    grid-area: box-5;
-    border: 1px solid white;
-    display: flex;
+  grid-area: box-5;
+  border: 1px solid white;
+  display: flex;
 }
 
 #section-5-article-3-left {
-    grid-area: box-6;
-    border: 1px solid white;
-    display: flex;
+  grid-area: box-6;
+  border: 1px solid white;
+  display: flex;
 }
 
 #section-5-article-3-right {
-    grid-area: box-7;
-    border: 1px solid white;
-    display: flex;
+  grid-area: box-7;
+  border: 1px solid white;
+  display: flex;
 }
 
 #section-5-paragraph-1 {
-    font-size: 18px;
-    text-transform: uppercase;
-    line-height: 3em;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 3em;
 }
 
 #section-5-paragraph-2 {
-    font-size: 16px;
-    line-height: 1.5em;
+  font-size: 16px;
+  line-height: 1.5em;
 }
 
 .section-5-img {
-    width: 80px;
-    height: 80px;
-    padding: 30px;
+  width: 80px;
+  height: 80px;
+  padding: 30px;
 }
 
 .section-5-padding {
-    padding: 40px;
-    line-height: 1.5em;
+  padding: 40px;
+  line-height: 1.5em;
 }
 
 #section-5-link {
-    margin-top: 40px;
-    text-align: center;
+  margin-top: 40px;
+  text-align: center;
 }
 
 #section-6 {
-    padding: 40px;
-    display: flex;
+  padding: 40px;
+  display: flex;
+  background-color: rgb(100, 100, 100);
+  border: 1px solid white;
 }
 
 #section-6 img {
-    width: auto;
-    height: auto;
-    border: 1px solid #000;
-    padding: 0;
+  width: auto;
+  height: auto;
+  border: 1px solid #000;
+  padding: 0;
 }
 
 #section-6-paragraph {
-    padding: 40px;
-    line-height: 1.5em;
+  padding: 40px;
+  line-height: 1.5em;
 }
 
 #section-6 h2 {
-    font-size: 40px;
-    padding: 30px 0;
+  font-size: 40px;
+  padding: 30px 0;
 }
 
 #section-6 button {
-    padding: 10px;
-    width: 400px;
-    font-size: 22px;
-    border-radius: 10px;
-    border: none;
-    margin-top: 20px;
+  padding: 10px;
+  width: 400px;
+  font-size: 22px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
 }
 
 #section-7 {
-    display: grid;
-    grid-template-areas:
-      "section-7-box1 section-7-box2 section-7-box3"
-      "section-7-box1 section-7-box2 section-7-box3";
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
-    justify-content: center;
-    text-align: left;
-    background-color: rgb(70, 70, 70);
-    font-size: 20px;
-    font-weight: 500;
-    border: 1px solid white;
-    padding: 30px;
+  display: grid;
+  grid-template-areas:
+    "section-7-box1 section-7-box2 section-7-box3"
+    "section-7-box1 section-7-box2 section-7-box3";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  justify-content: center;
+  text-align: left;
+  background-color: rgb(70, 70, 70);
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid white;
+  padding: 30px;
 }
 
 #section-7-box1 {
-    grid-area: section-7-box1;
-    border: 1px solid white;
-    padding: 40px;
-    line-height: 1.5em;
+  grid-area: section-7-box1;
+  border: 1px solid white;
+  padding: 40px;
+  line-height: 1.5em;
 }
 
 #section-7-box2 {
-    grid-area: section-7-box2;
-    border: 1px solid white;
-    padding: 40px;
-    line-height: 1.5em;
+  grid-area: section-7-box2;
+  border: 1px solid white;
+  padding: 40px;
+  line-height: 1.5em;
 }
 
 #section-7-box3 {
-    grid-area: section-7-box3;
-    border: 1px solid white;
-    padding: 40px;
-    line-height: 1.5em;
+  grid-area: section-7-box3;
+  border: 1px solid white;
+  padding: 40px;
+  line-height: 1.5em;
 }
 
-#section-7 li, ul{
-    text-decoration: underline;
+#section-7 li {
+  text-decoration: underline;
+}
+
+#section-7 ul {
+  text-decoration: underline;
+}
+
+#section-8 {
+  background-color: rgb(100, 100, 100);
+  border: 1px solid white;
+  padding: 40px;
+  text-align: center;
+}
+
+#section-8 h1 {
+  padding: 20px;
+  font-size: 22px;
+}
+
+#section-8 p {
+  font-size: 18px;
+}
+
+#section-8 img {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+}
+
+#section-8 button {
+  padding: 10px;
+  width: 400px;
+  font-size: 22px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+}
+
+#section-9 {
+  background-color: rgb(100, 100, 100);
+  border: 1px solid white;
+  padding: 40px;
+}
+
+#section-9 h3 {
+  text-align: center;
+  padding: 20px;
+  font-size: 22px;
+}
+
+#section-9 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#section-9 li {
+  text-decoration: none;
+  padding: 20px;
+  list-style-type: circle;
+  list-style-position: inside;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#section-9 p {
+  font-size: 18px;
+  text-align: center;
+}
+
+#section-9-links {
+  text-align: center;
+  padding: 40px 80px;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+#section-9-links img {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
 }
